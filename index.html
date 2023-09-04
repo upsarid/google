@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="w-full h-14 bg-[#202124] text-white gap-5 pr-4 flex justify-end items-center fixed top-0">
+        <a class="hover:underline" href="">Gmail</a>
+        <a class="hover:underline" href="">Imágenes</a>
+        <button class="hover:bg-[#36373c] rounded-[50%] p-2.5"><img class="w-[23px]" src="images/menu.png" alt=""></button>
+        <button class="hover:bg-[#36373c] rounded-full p-px"><img src="images/usuario.png" alt=""></button>
+    </nav>
+    
+    <main class="h-[85vh] bg-[#202124] flex justify-center">
+        <div class="flex justify-center flex-col">
+            <div class="flex justify-center">
+            <img class="w-64 pb-7" src="images/google-white-logo.png" alt="">
+        </div>
+        
+        <div class="w-[400px] flex justify-center w-6/12 h-12 rounded-full bg-[#202124] border-solid border-slate-600 hover:bg-[#303134]
+        border-[1px] sm:w-[700px]">
+            <input class="w-6 h-6 mt-3 ml-0" type="image" src="images/lupa.png">
+            <input class="w-[80%] bg-[#202124] flex justify-center items-center hover:bg-[#303134] sm:w-[88%]" type="search">
+            <input class="w-6 h-6 mt-2.5" type="image" src="images/camara.png">
+        </div>
+
+        <div class="flex justify-center gap-5 my-7">
+            <button class="bg-[#303134] w-40 h-8 rounded text-white hover:border-slate-600 hover:border-solid hover:border-[1px]">Buscar con Google</button>
+            <button class="bg-[#303134] w-40 h-8 rounded text-white hover:border-slate-600 hover:border-solid hover:border-[1px]">Voy a tener suerte</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="h-[15vh] bg-[#171717] text-slate-400 px-2 flex flex-col">
+        <div>
+            <p class="text-[12px] p-3 sm:text-[14px]">Venezuela</p>
+        </div>
+        <hr>
+        <div class="text-[10px] flex mt-3 pl-3 justify-between px-[10px]">
+            <div class="flex gap-3 sm:text-[12px]">
+                
+                <a class="hover:underline" href="#">Sobre Google</a>
+                <a class="hover:underline" href="#">Publicidad</a>
+                <a class="hover:underline" href="#">Negocios</a>
+                <a class="hover:underline" href="#">Cómo funciona la búsqueda</a>
+            </div>
+
+            <div class="flex gap-3 sm:text-[12px]">    
+            <a class="hover:underline" href="">Privacidad</a>
+            <a class="hover:underline" href="">Condiciones</a>
+            <a class="hover:underline" href="">Preferencias</a>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>
